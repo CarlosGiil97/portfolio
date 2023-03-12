@@ -1,5 +1,6 @@
 import {React,useEffect,useState} from 'react';
 import { Navbar, Container,Nav } from 'react-bootstrap';
+import { AiFillEye} from 'react-icons/ai';
 
 
 
@@ -77,6 +78,8 @@ function Proyectos() {
                 </div>
             </>
         }
+
+        <a href="https://github.com/CarlosGiil97?tab=repositories" class="text-2xl no-underline hover:underline text-color-third-color m-10">Ver más  </a>
     </div>
         
     </>

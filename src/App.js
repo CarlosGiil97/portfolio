@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Proyectos from './components/Proyectos';
 
 
+
 function App() {
 
 
@@ -23,6 +24,7 @@ function App() {
       <Skills />
       <Proyectos />
       <Footer />
+
     </div>
   );
 }
