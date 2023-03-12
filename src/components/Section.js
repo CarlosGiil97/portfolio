@@ -33,7 +33,7 @@ function Section() {
         <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96 mb-2">
             <img className="mx-auto" src='assets/avatar.png' layout="fill" objectFit="cover" />
         </div>
-        <h1 className='text-3xl md:text-5xl  font-sansBold text-color-third-color'> Hola !! <span className=''>🖐</span> Soy Carlos Gil Terriente</h1>
+        <h1 className='text-3xl md:text-5xl  p-5 font-sansBold text-color-third-color'> Hola !! <span className=''>🖐</span> Soy Carlos Gil Terriente</h1>
         <h3 className='text-2xl md:text-2xl'>{text}</h3>
         <a href="https://pro.besoccer.com" class="underline decoration-wavy text-dark">{text1}</a>
         <p className='text-md py-1 text-gray-800 md:text-xl mt-4 p-2'>
