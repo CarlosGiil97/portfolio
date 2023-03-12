@@ -5,6 +5,8 @@ import emailjs from 'emailjs-com';
 import 'react-notifications-component/dist/theme.css'
 import { ReactNotifications } from 'react-notifications-component'
 import { Store } from 'react-notifications-component';
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 
 
@@ -59,11 +61,11 @@ function CustomNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto justify-content-center ">
-            <Nav.Link href="#formacion" className='hover:underline text-color-third-color underline-offset-8'>Formación</Nav.Link>
-            <Nav.Link href="#experiencia" className='hover:underline text-color-third-color underline-offset-8'>Experiencia</Nav.Link>
-            <Nav.Link href="#skills" className='hover:underline text-color-third-color underline-offset-8'>Skills</Nav.Link>
-            <Nav.Link href="#proyectos" className='hover:underline text-color-third-color underline-offset-8'>Mis proyectos</Nav.Link>
-            <Nav.Link onClick={() => setShowModal(true)} className='hover:underline text-color-third-color underline-offset-8'>Contacto</Nav.Link>
+            <Nav.Link href="#formacion" className=' animate__animated animate__zoomInDown hover:underline text-color-third-color underline-offset-8'>Formación</Nav.Link>
+            <Nav.Link href="#experiencia" className='animate__animated animate__zoomInDown hover:underline text-color-third-color underline-offset-8'>Experiencia</Nav.Link>
+            <Nav.Link href="#skills" className='animate__animated animate__zoomInDown hover:underline text-color-third-color underline-offset-8'>Skills</Nav.Link>
+            <Nav.Link href="#proyectos" className='animate__animated animate__zoomInDown hover:underline text-color-third-color underline-offset-8'>Mis proyectos</Nav.Link>
+            <Nav.Link onClick={() => setShowModal(true)} className='animate__animated animate__zoomInDown hover:underline text-color-third-color underline-offset-8'>Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
