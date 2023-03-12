@@ -23,6 +23,7 @@ function Section() {
       useEffect(() => {
         const timeout = setTimeout(() => {
           setText1(second_text.slice(0, text1.length + 1));
+          
         }, 100);
         return () => clearTimeout(timeout);
       }, [text1]);
@@ -32,13 +33,12 @@ function Section() {
         <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96 mb-2">
             <img className="mx-auto" src='assets/avatar.png' layout="fill" objectFit="cover" />
         </div>
-        <h1 className='text-3xl md:text-5xl  font-sansBold text-color-third-color'>Carlos Gil Terriente</h1>
+        <h1 className='text-3xl md:text-5xl  font-sansBold text-color-third-color'> Hola !! <span className=''>🖐</span> Soy Carlos Gil Terriente</h1>
         <h3 className='text-2xl md:text-2xl'>{text}</h3>
         <a href="https://pro.besoccer.com" class="underline decoration-wavy text-dark">{text1}</a>
         <p className='text-md py-1 text-gray-800 md:text-xl mt-4 p-2'>
-        Soy un desarrollador Fullstack apasionado por la tecnología y con dos años de experiencia en el campo. Me especializo en el desarrollo de aplicaciones web y móviles,
-         y tengo experiencia en trabajar tanto en el lado del cliente como en el lado del servidor.
-         Además, me considero una persona que lucha por los objetivos hasta el final, y siempre estoy buscando maneras de optimizar el rendimiento y
+          Soy un desarrollador Fullstack apasionado por la tecnología y con dos años de experiencia en el campo. Me especializo en el desarrollo de aplicaciones web  y tengo experiencia en trabajar tanto en el lado del cliente como en el lado del servidor.
+          Además, me considero una persona que lucha por los objetivos hasta el final, y siempre estoy buscando maneras de optimizar el rendimiento y
           mejorar la experiencia del usuario. Soy capaz de trabajar en equipo, comunicar de manera efectiva y estoy comprometido en aprender y desarrollar mis habilidades constantemente.
         </p>
         <div className='text-5xl py-4 flex justify-center gap-16 text-gray-600'>
